@@ -14,6 +14,7 @@ class Sql {
 	public function __construct()
 	{
 
+		
 		$this->conn = new \PDO(
 			"mysql:dbname=".Sql::DBNAME.";host=".Sql::HOSTNAME, 
 			Sql::USERNAME,

@@ -31,14 +31,14 @@ class Page {
 
         $this->setData($this->options["data"]);
 
-    if ($this->options["header"] === true) $this ->tpl->draw("header");
+    if ($this->options["header"] === true) $this->tpl->draw("header");
 
     }
 
     private function setData($data=array()){
         foreach($data as $key => $value){
 
-            $this -> tpl->assign($key, $value);
+            $this->tpl->assign($key, $value);
         }
 
     }
