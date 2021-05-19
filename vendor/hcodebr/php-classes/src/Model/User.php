@@ -16,7 +16,7 @@ class User extends Model{
         "iduser","idperson", "deslogin","despassword",
         "desemail", "nrphone", "inadmin", "dtregister",
         "desperson"
-    ];
+    ];  
     
     
 
