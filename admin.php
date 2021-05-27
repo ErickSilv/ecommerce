@@ -107,8 +107,7 @@ $app->post("/admin/forgot/reset", function(){
 		"header"=>false,
 		"footer"=>false
 	]);
-	$page -> setTpl("forgot-reset-sucess");
-
+	$page->setTpl("forgot-reset-success");
 	
 });
 

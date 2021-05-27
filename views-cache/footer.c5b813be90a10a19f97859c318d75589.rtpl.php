@@ -30,6 +30,7 @@
                 <div class="footer-menu">
                     <h2 class="footer-wid-title">Categorias</h2>
                     <ul>
+                        <!--Incluindo a página categories-menu.html, onde as categorias sao criadas dinamicas-->
                         <?php require $this->checkTemplate("categories-menu");?>
                     </ul>                        
                 </div>
