@@ -352,7 +352,7 @@ class User extends Model{
 
 		$_SESSION[User::SUCCESS] = NULL;
 
-	}
+	}*/
 
 	public static function setErrorRegister($msg)
 	{
@@ -370,7 +370,7 @@ class User extends Model{
 
 		return $msg;
 
-	}*/
+	}
 
 	public static function clearErrorRegister()
 	{
